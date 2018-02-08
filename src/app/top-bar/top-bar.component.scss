@@ -1,0 +1,27 @@
+nav {
+  width: 100%;
+  background-color: steelblue;
+}
+
+nav ul {
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  padding: 0 20px;
+}
+
+nav ul li:hover {
+  background-color: #4b93b4;
+}
+
+nav ul li a {
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+}

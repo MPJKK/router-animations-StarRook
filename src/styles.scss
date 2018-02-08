@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  padding-top: 10%;
+  width: 50%;
+  margin:auto;
+  text-align: center;
+}
+
+legend {
+  text-decoration: underline;
+  font-size: 1.3em;
+  padding-bottom: 20px;
+}
+
+input {
+  border: 2px solid steelblue;
+  padding: 3px;
+  height: 40px;
+  width: 100%;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  font-size: 1.2em;
+  border: none;
+  color: white;
+  background-color: steelblue;
+}
+
+button:hover {
+  background-color: #4b93b4;
+}

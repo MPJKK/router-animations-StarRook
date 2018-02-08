@@ -1,0 +1,19 @@
+.gallery {
+  padding-top: 40px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-evenly;
+
+  >div {
+    padding: 5px;
+    max-width: 320px;
+
+    >img {
+      max-width: 100%;
+    }
+  }
+
+}
+

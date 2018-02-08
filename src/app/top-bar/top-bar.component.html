@@ -1,0 +1,19 @@
+<nav>
+  <ul>
+    <li *ngIf="!this.mediaService.loggedIn">
+      <a [routerLink] = "'/register'">Register</a>
+    </li>
+    <li *ngIf="!this.mediaService.loggedIn">
+      <a [routerLink] = "'/login'">Login</a>
+    </li>
+    <li *ngIf="this.mediaService.loggedIn">
+      <a [routerLink] = "'/logout'">Logout</a>
+    </li>
+    <li *ngIf="this.mediaService.loggedIn">
+      <a [routerLink] = "'/front'">Front page</a>
+    </li>
+    <li *ngIf="this.mediaService.loggedIn">
+      <a [routerLink] = "'/upload'">Upload</a>
+    </li>
+  </ul>
+</nav>
